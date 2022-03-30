@@ -1,12 +1,12 @@
 {
-  "name": "tealium-presentation",
+  "name": "iterable-pizza",
   "version": "1.0.0",
-  "description": "Tealium Presentation",
+  "description": "Iterable Pizza",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Nam Ngo",
+  "author": "Nam Ninja",
   "license": "ISC",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
