@@ -58,6 +58,15 @@ router.post(
   })
 );
 
+router.get("/menu", function(req, res) {
+  
+      res.render("menu.ejs", {
+            // get the user out of session and pass to template
+      });
+    
+  
+});
+
 // LOGOUT ==============================
 router.get("/logout", function(req, res) {
   req.logout();
