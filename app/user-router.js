@@ -67,6 +67,21 @@ router.get("/menu", function(req, res) {
   
 });
 
+router.get("/menu/pepperoni", function(req, res) {
+  // render the page and pass in any flash data if it exists
+  res.render("pepperoni.ejs", {
+    message: req.flash("pepperoni"),
+  
+  });
+});
+// show the apple-app-site-association file
+router.get("/apple-app-site-association", function(req, res) {
+  // render the page and pass in any flash data if it exists
+  fs.readFile('views/apple-app-site-association', 'utf8', (err, text) => {
+    res.end(text);
+  })
+  
+});
 // LOGOUT ==============================
 router.get("/logout", function(req, res) {
   req.logout();
