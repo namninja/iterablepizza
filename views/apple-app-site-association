@@ -7,6 +7,12 @@
           "paths": [
             "/menu/*"
           ]
+        },
+        {
+          "appID": "454L9NG9J9.com.IterablePizza.IterableOne",
+          "paths": [
+            "/menu/*"
+          ]
         }
       ]
     }
