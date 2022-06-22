@@ -1,10 +1,10 @@
 <%- include('head', {}); %>
 
 <body>
-    <!-- <script type="text/javascript">
+   <!-- <script type="text/javascript">
       var utag_data = {
         page_name: "index", // Contains a user-friendly name for the page.
-      };
+      }; 
     </script>
      Loading script asynchronously -->
      <!-- <script type="text/javascript">
@@ -38,5 +38,8 @@
         </footer>
     </main>
     <%- include('scripts', {}); %>
+    <script>
+      amplitude.getInstance().logEvent('amplitude_event');
+    </script>
 </body>
 </html>
