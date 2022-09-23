@@ -85,7 +85,7 @@ router.get("/apple-app-site-association", function(req, res) {
 });
 router.get("/.well-known/assetlinks.json", function (req, res) {
   // render the page and pass in any flash data if it exists
-  fs.readFile('view/assetlinks.json', 'utf8', (err, text) => {
+  fs.readFile('views/.wellknown/assetlinks.json', 'utf8', (err, text) => {
     res.end(text);
   })
 
