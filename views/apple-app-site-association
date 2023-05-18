@@ -9,13 +9,13 @@
           ]
         },
         {
-          "appID": "454L9NG9J9.com.IterablePizza.IterableTest",
+          "appID": "454L9NG9J9.com.IterablePizza.IterableTiger",
           "paths": [
             "/menu/*"
           ]
         },
         {
-          "appID": "454L9NG9J9.com.IterablePizza.IterableTiger",
+          "appID": "454L9NG9J9.com.IterablePizza.IterableRNTest",
           "paths": [
             "/menu/*"
           ]
